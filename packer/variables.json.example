@@ -2,5 +2,5 @@
 	"service_account_key_file": "key.json.examples",
 	"folder_id": "test_bwerrwdfsdurv48",
 	"source_image_family": "ubuntu-1604-lts",
-    "ssh_username": "ubuntu"		
+    "ssh_username": "ubuntu"
 }
