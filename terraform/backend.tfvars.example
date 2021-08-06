@@ -1,0 +1,5 @@
+#Remote storage variables
+bucket     = "remote-storage"
+region     = "ru-central1-a"
+access_key = "test_wer684846846werw"
+secret_key = "test_werwe8965654"
