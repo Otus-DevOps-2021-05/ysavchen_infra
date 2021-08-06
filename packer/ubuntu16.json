@@ -3,7 +3,7 @@
 		"service_account_key_file": null,
 		"folder_id": null,
 		"source_image_family": "ubuntu-1604-lts",
-        "ssh_username": "ubuntu"		
+        "ssh_username": "ubuntu"
 	},
     "builders": [
         {
