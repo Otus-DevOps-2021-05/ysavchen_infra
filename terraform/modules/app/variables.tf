@@ -3,12 +3,12 @@ variable app_instance_name {
 }
 
 variable instance_zone {
-  description = "Zone for yandex_compute_instance"
+  description = "Zone for app instance"
   default     = "ru-central1-a"
 }
 
 variable subnet_id {
-  description = "Subnets for modules"
+  description = "Subnet to attach to app instance"
 }
 
 variable app_disk_image {

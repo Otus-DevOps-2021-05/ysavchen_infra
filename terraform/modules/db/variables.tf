@@ -3,12 +3,12 @@ variable db_instance_name {
 }
 
 variable instance_zone {
-  description = "Zone for yandex_compute_instance"
+  description = "Zone for db instance"
   default     = "ru-central1-a"
 }
 
 variable subnet_id {
-  description = "Subnets for modules"
+  description = "Subnet to attach to db instance"
 }
 
 variable db_disk_image {
