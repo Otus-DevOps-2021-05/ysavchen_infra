@@ -1,0 +1,7 @@
+#Cloud variables
+cloud_id  = "test_ser3699werwewerwer"
+folder_id = "test_b1werw574ererwer"
+zone      = "ru-central1-a"
+
+#Service account
+service_account_key_file = "key.json"
