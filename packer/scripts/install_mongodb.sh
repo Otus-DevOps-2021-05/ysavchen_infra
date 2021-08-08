@@ -4,6 +4,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 
 echo "installing mondodb..."
 apt-get update
+sleep 15s
 apt-get install -y mongodb-org
 systemctl start mongod
 systemctl enable mongod
