@@ -23,3 +23,9 @@ ysavchen Infra repository
 4. Параметризована конфигурация, чтобы можно было одновременно создать VM для stage и prod
 5. Настроено хранение state файла в удаленном бекенде для stage и prod
 6. Отформатированы конфигурационные файлы с terraform fmt
+
+### Домашнее задание №8 - Ansible-1
+1. Установлен Ansible
+2. Создан inventory (inventory.yml) с ip-адресами серверов
+3. Добавлен ansible.cfg для настройки Ansible (user, keys, path to inventory)
+3. Создан ansible-playbook (clone.yml) с описанием задачи в виде yaml
