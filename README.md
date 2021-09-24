@@ -28,4 +28,10 @@ ysavchen Infra repository
 1. Установлен Ansible
 2. Создан inventory (inventory.yml) с ip-адресами серверов
 3. Добавлен ansible.cfg для настройки Ansible (user, keys, path to inventory)
-3. Создан ansible-playbook (clone.yml) с описанием задачи в виде yaml
+4. Создан ansible-playbook (clone.yml) с описанием задачи в виде yaml
+
+### Домашнее задание №9 - Ansible-2
+1. Создан playbook c конфигурацией app, db и деплоя
+2. Playbook c одним сценарием (play) разбит на несколько сценариев (plays)
+3. Playbook reddit_app_multiple_plays разбит на несколько playbooks - app.yml, db.yml, deploy.yml
+4. Изменены скрипты Packer, чтобы для установки Ruby и MongoDB использовался Ansible
