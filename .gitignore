@@ -15,3 +15,5 @@
 
 #Ansible
 *.retry
+**/jdauphant.nginx
+**/vault.key
