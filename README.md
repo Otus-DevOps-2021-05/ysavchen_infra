@@ -35,3 +35,9 @@ ysavchen Infra repository
 2. Playbook c одним сценарием (play) разбит на несколько сценариев (plays)
 3. Playbook reddit_app_multiple_plays разбит на несколько playbooks - app.yml, db.yml, deploy.yml
 4. Изменены скрипты Packer, чтобы для установки Ruby и MongoDB использовался Ansible
+
+### Домашнее задание №10 - Ansible-3
+1. Конфигурация app и db вынесена в роли
+2. Добавлена конфигурация для prod и stage environemnts
+3. Добавлена community-роль jdauphant.nginx для проксирования запросов
+4. Настроено шифрование user credentials с помощью Ansible Vault
