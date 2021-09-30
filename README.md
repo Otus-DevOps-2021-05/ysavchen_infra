@@ -41,3 +41,10 @@ ysavchen Infra repository
 2. Добавлена конфигурация для prod и stage environemnts
 3. Добавлена community-роль jdauphant.nginx для проксирования запросов
 4. Настроено шифрование user credentials с помощью Ansible Vault
+
+### Домашнее задание №10 - Ansible-4
+1. Установлен VirtualBox и Vagrant
+2. Добавлен Vagrantfile для управления VirtualBox
+3. Добавлены провижинеры для конфигурации VM
+4. Переработаны роли app и db
+5. Протестирована db роль
